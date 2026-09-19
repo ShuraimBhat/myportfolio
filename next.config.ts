@@ -26,6 +26,7 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   devIndicators: false,
+  poweredByHeader: false,
   async headers() {
     return [
       {
