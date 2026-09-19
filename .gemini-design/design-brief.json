@@ -1,0 +1,40 @@
+{
+  "target": "portfolio-components",
+  "name": "Network Security Portfolio UI",
+  "isRedesign": true,
+  "painPoints": [
+    "Heavy monochromatic look with poor contrast in light mode",
+    "Overly vibecoded or gimmicky visual effects that distract from engineering credibility",
+    "Need for clean technical scannability for both technical recruiters and senior network architects",
+    "Need for interactive side-by-side comparison of different hierarchy, density, and 3D depth styles"
+  ],
+  "inspiration": ["Linear", "Stripe", "Cloudflare Radar", "Vercel"],
+  "brandFeel": ["Authoritative", "Precision-Engineered", "Tactile", "Clean Technical Depth"],
+  "density": "comfortable",
+  "targetUser": "Senior Network Security Engineers, Staff Architects, Technical Recruiters",
+  "context": "both",
+  "constraints": [
+    "WCAG AA 4.5:1 minimum contrast in both dark and light modes",
+    "Zero ESLint errors or React 19 hydration issues",
+    "Sub-150ms micro-interaction transitions",
+    "Responsive from mobile (375px) to 4K displays"
+  ],
+  "extractedTokens": {
+    "colors": {
+      "backgroundLight": "#f8fafc",
+      "backgroundDark": "#090a0d",
+      "foregroundLight": "#090a0d",
+      "foregroundDark": "#f8fafc",
+      "accentEmerald": "#10b981",
+      "accentCyan": "#38bdf8",
+      "accentAmber": "#f59e0b",
+      "accentRose": "#f43f5e"
+    },
+    "typography": {
+      "sans": "var(--font-sans), Inter",
+      "mono": "var(--font-geist-mono), monospace"
+    },
+    "spacing": "4px grid (4, 8, 12, 16, 24, 32px)",
+    "borderRadius": "rounded-lg (8px), rounded-xl (12px), rounded-full"
+  }
+}
