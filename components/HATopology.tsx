@@ -48,12 +48,12 @@ export default function HATopology() {
         </g>
 
         <circle className="ha-topology__packet ha-topology__packet--active" cx="0" cy="0" r="3" filter="url(#ha-glow)">
-          <animateMotion dur="4.8s" repeatCount="indefinite" path="M160 150C192 150 192 97 230 97C428 97 436 153 476 153H704" />
-          <animate attributeName="opacity" dur="4.8s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;.08;.86;1" />
+          <animateMotion dur="6.6s" repeatCount="indefinite" path="M160 150C192 150 192 97 230 97C428 97 436 153 476 153H704" />
+          <animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;.08;.86;1" />
         </circle>
         <circle className="ha-topology__packet ha-topology__packet--return" cx="0" cy="0" r="2.7" filter="url(#ha-glow)">
-          <animateMotion dur="5.2s" begin="1.4s" repeatCount="indefinite" path="M704 153H476C436 153 428 97 384 97C192 97 192 150 160 150" />
-          <animate attributeName="opacity" dur="5.2s" begin="1.4s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;.12;.2;.88;1" />
+          <animateMotion dur="7.2s" begin="1.4s" repeatCount="indefinite" path="M704 153H476C436 153 428 97 384 97C192 97 192 150 160 150" />
+          <animate attributeName="opacity" dur="7.2s" begin="1.4s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;.12;.2;.88;1" />
         </circle>
 
         {nodes.map((node) => (
